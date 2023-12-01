@@ -12,7 +12,7 @@ const io = require('socket.io')(http, {
 const mysql = require('mysql2');
 require('dotenv').config()
 
-const PORT = 3000;
+const PORT = process.env.PORT;
 
 const connection = mysql.createConnection({
     host: process.env.DB_HOST,
