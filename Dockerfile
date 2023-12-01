@@ -2,7 +2,7 @@
 FROM node:14
 
 # 작업 디렉토리를 /app으로 설정
-WORKDIR /app
+WORKDIR /socketio
 
 # package.json 및 package-lock.json을 작업 디렉토리로 복사
 COPY package*.json ./
