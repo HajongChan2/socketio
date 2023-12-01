@@ -1,8 +1,8 @@
 # 공식적인 Node.js 런타임을 부모 이미지로 사용
 FROM node:14
 
-# 작업 디렉토리를 /app으로 설정
-WORKDIR /app
+# 작업 디렉토리를 /socketio으로 설정
+WORKDIR /socketio
 
 # package.json 및 package-lock.json을 작업 디렉토리로 복사
 COPY package*.json ./
